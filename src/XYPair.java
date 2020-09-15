@@ -9,6 +9,7 @@ public class XYPair {
 	}
 
 	public double distanceTo(XYPair otherPair) {
-		return Math.sqrt(Math.pow(x - otherPair.x, 2) + Math.pow(y - otherPair.y, 2));
+//		return Math.sqrt(Math.pow(x - otherPair.x, 2) + Math.pow(y - otherPair.y, 2));
+		return Math.pow(x - otherPair.x, 2) + Math.pow(y - otherPair.y, 2);
 	}
 }
