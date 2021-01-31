@@ -2,7 +2,7 @@
 The Travelling Salesman Problem (TSP) asks the question:
 > Suppose you are a salesman who needs to travel between multiple cities. Given their location, what is the shortest possible route you could take to visit each city once and return to the origin?
 
-This problem has been historically difficult to solve. Although there are many approximation algorithms, the only exact solution runs in time **O(n!)**. This is the brute-force method of checking every permutation of cities and returning route with the shortest distance.
+This problem has been historically difficult to solve. Although there are many approximation algorithms, the only exact solution (that we know of) runs in time **O(n!)**. This is the brute-force method of checking every permutation of cities and returning route with the shortest distance.
 
 This program visualises the brute-force method on a slight variation of the TSP. The variation being, you do not need to start and end in the same city.
 
